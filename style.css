@@ -1,0 +1,26 @@
+h1 {
+  font-size: 45px;
+  text-align: center;
+  border-bottom: 1px solid gray;
+  margin: 0px
+}
+ol {
+  border-right: 1px solid gray;
+  width: 60px;
+  margin: 0px;
+  padding: 20px;
+}
+li {
+  color: gray;
+}
+#grid {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+}
+#padding {
+  padding: 20px;
+}
+#h1 {
+  text-align: left;
+  border-bottom: none;
+}
